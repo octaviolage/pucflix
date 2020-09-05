@@ -31,8 +31,8 @@ export const SliderItem = styled.li`
   margin-right: 16px;
   img {
     margin: 16px;
-    width: 298px;
-    height: 197px;
+    width: 248px;
+    height: 147px;
     object-fit: cover;
   }
 `;
@@ -42,10 +42,12 @@ const Slider = ({ children }) => (
     <SlickSlider {...{
       dots: false,
       infinite: true,
-      speed: 300,
+      speed: 500,
       centerMode: false,
       variableWidth: true,
       adaptiveHeight: true,
+      slidesToShow: 2,
+      slidesToScroll: 2
     }}
     >
       {children}
