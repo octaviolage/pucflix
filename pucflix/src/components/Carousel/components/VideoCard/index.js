@@ -1,6 +1,15 @@
 import React from 'react';
 import { VideoCardContainer } from './styles';
 
+function title(titulo) {
+  if (titulo.length > 24){
+    return titulo.slice(0,20) + '...';
+  }
+  else{
+    return titulo;
+  }
+}
+
 function VideoCard({ videoTitle, videoURL, categoryColor, image }) {
   return (
     <VideoCardContainer
@@ -10,7 +19,7 @@ function VideoCard({ videoTitle, videoURL, categoryColor, image }) {
       style={{ borderColor: categoryColor || 'red' }}
       title={videoTitle}
     >
-      <span style={{ color: 'white' }}>{videoTitle}</span>
+      <span style={{ color: 'white' }}>{title(videoTitle)}</span>
     </VideoCardContainer>
   );
 }

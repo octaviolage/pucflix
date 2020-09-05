@@ -36,7 +36,7 @@ export const ExtraLink = styled.a`
     opacity: .5;
   }
   @media (max-width: 800px) {
-    display: block;
+    display: none;
     margin-bottom: 16px;
     margin-left: 0;
   }

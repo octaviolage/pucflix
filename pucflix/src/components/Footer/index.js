@@ -19,10 +19,10 @@ function Footer() {
   return (
     <FooterBase>
       <p>
-        Saiba como contribuir
+        Caso queira contribuir, acesse o
         {' '}
-        <a href="https://github.com/octaviolage/pucflix">
-          clicando aqui.
+        <a href="https://github.com/octaviolage/pucflix/">
+          repositório aqui. 
         </a>
       </p>
     </FooterBase>

@@ -2,7 +2,7 @@ const dados = [
     {
         sigla: 'PAA',
         nome: "Projeto e Análise de Algoritmos",
-        imagem: "",
+        imagem: 'https://raw.githubusercontent.com/octaviolage/pucflix/master/pucflix/src/assets/img/paa.png',
         aulas: [
             {
                 nome: "PAA dia 03/08",
@@ -85,7 +85,7 @@ const dados = [
     {
         sigla: 'LAB III',
         nome: "Laboratorio de Computação III",
-        imagem: "",
+        imagem: 'https://raw.githubusercontent.com/octaviolage/pucflix/master/pucflix/src/assets/img/lciii.png',
         aulas: [
             {
                 nome: "Lab 3 dia 04/08 parte 1",
@@ -144,7 +144,7 @@ const dados = [
     {
         sigla: 'MD I',
         nome: "Matemática Discreta I",
-        imagem: "",
+        imagem: 'https://raw.githubusercontent.com/octaviolage/pucflix/master/pucflix/src/assets/img/mdi.png',
         aulas: [
             {
                 nome: "Dia 03/08 Apresentação da disciplina",
@@ -191,7 +191,7 @@ const dados = [
     {
         sigla: 'Eng. Req.',
         nome: "Engenharia de Requisitos",
-        imagem: "",
+        imagem: 'https://raw.githubusercontent.com/octaviolage/pucflix/master/pucflix/src/assets/img/er.png',
         aulas: [
             {
                 nome: "Aula de 05/08",
@@ -219,19 +219,19 @@ const dados = [
             },
             {
                 nome: "Aula de 26/08",
-                url: 'https://web.microsoftstream.com/video/f9ffd650-41dd-4ec2-a9ed-6df07e077610'
+                url: 'https://web.microsoftstream.com/video/d289270e-c387-4e2e-b3bf-3e385751c3ff'
             },
             {
                 nome: "Aula de 27/08",
-                url: 'https://web.microsoftstream.com/video/f9ffd650-41dd-4ec2-a9ed-6df07e077610'
+                url: 'https://web.microsoftstream.com/video/38a36968-9030-4f51-bb79-665cc5ce4b05'
             },
             {
                 nome: "Aula de 02/09",
-                url: 'https://web.microsoftstream.com/video/f9ffd650-41dd-4ec2-a9ed-6df07e077610'
+                url: 'https://web.microsoftstream.com/video/e995e50c-4e58-4447-9b93-3b341ba3bb44'
             },
             {
                 nome: "Eng. Req. dia 03/09",
-                url: 'https://web.microsoftstream.com/video/f9ffd650-41dd-4ec2-a9ed-6df07e077610'
+                url: 'https://web.microsoftstream.com/video/06122a1d-9a7f-4ce4-ab8a-a71325659555'
             }
         ]
     }
