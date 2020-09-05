@@ -194,39 +194,39 @@ const dados = [
         imagem: 'https://raw.githubusercontent.com/octaviolage/pucflix/master/pucflix/src/assets/img/er.png',
         aulas: [
             {
-                nome: "Aula de 05/08",
+                nome: "Eng. Req. dia 05/08",
                 url: 'https://web.microsoftstream.com/video/a03dcc80-f163-4c00-a707-78a4a6e67d33'
             },
             {
-                nome: "Aula de 06/08",
+                nome: "Eng. Req. dia 06/08",
                 url: 'https://web.microsoftstream.com/video/2cf81071-7be7-4f33-8796-95bac31cf49c'
             },
             {
-                nome: "Aula de 12/08",
+                nome: "Eng. Req. dia 12/08",
                 url: 'https://web.microsoftstream.com/video/3135bd39-a985-4fe3-b0a2-66cbc0488eea'
             },
             {
-                nome: "Aula de 13/08",
+                nome: "Eng. Req. dia 13/08",
                 url: 'https://web.microsoftstream.com/video/21bd0a30-5b3c-4f3d-b12f-691490623cef'
             },
             {
-                nome: "Aula de 19/08",
+                nome: "Eng. Req. dia 19/08",
                 url: 'https://web.microsoftstream.com/video/b586a1f5-6201-4884-82b2-e4204900d509'
             },
             {
-                nome: "Aula de 20/08",
+                nome: "Eng. Req. dia 20/08",
                 url: 'https://web.microsoftstream.com/video/f9ffd650-41dd-4ec2-a9ed-6df07e077610'
             },
             {
-                nome: "Aula de 26/08",
+                nome: "Eng. Req. dia 26/08",
                 url: 'https://web.microsoftstream.com/video/d289270e-c387-4e2e-b3bf-3e385751c3ff'
             },
             {
-                nome: "Aula de 27/08",
+                nome: "Eng. Req. dia 27/08",
                 url: 'https://web.microsoftstream.com/video/38a36968-9030-4f51-bb79-665cc5ce4b05'
             },
             {
-                nome: "Aula de 02/09",
+                nome: "Eng. Req. dia 02/09",
                 url: 'https://web.microsoftstream.com/video/e995e50c-4e58-4447-9b93-3b341ba3bb44'
             },
             {

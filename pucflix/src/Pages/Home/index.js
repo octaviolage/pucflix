@@ -18,6 +18,7 @@ function Home() {
       {dadosIniciais.map((categoria, indice) => {
         if (indice === 0) {
           return (
+            
             <div key={categoria.id}>
               {/* <BannerMain
                 videoTitle={dadosIniciais[0].aulas[0].nome}

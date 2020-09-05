@@ -18,7 +18,7 @@ export const VideoCardContainer = styled.a`
   align-items: flex-end;
   transition: width 0.3s;
   &:hover {
-    width: calc(298px + 5vw);
+    width: calc(248px + 3vw);
   }
   &:not(:first-child) {
     margin-left: 20px;
@@ -37,7 +37,7 @@ export const VideoCardContainer = styled.a`
   }
 
   @media (max-width: 800px) {
-    width: 148px;
+    width: 158px;
     height: 97px;
     &:hover {
       width: 148px;
