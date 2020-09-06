@@ -1,5 +1,6 @@
 const dados = [
     {
+        id: 0,
         sigla: 'PAA',
         nome: "Projeto e Análise de Algoritmos",
         imagem: 'https://raw.githubusercontent.com/octaviolage/pucflix/master/pucflix/src/assets/img/paa.png',
@@ -83,6 +84,7 @@ const dados = [
         ]
     },
     {
+        id: 1,
         sigla: 'LAB III',
         nome: "Laboratorio de Computação III",
         imagem: 'https://raw.githubusercontent.com/octaviolage/pucflix/master/pucflix/src/assets/img/lciii.png',
@@ -142,6 +144,7 @@ const dados = [
         ]
     },
     {
+        id: 2,
         sigla: 'MD I',
         nome: "Matemática Discreta I",
         imagem: 'https://raw.githubusercontent.com/octaviolage/pucflix/master/pucflix/src/assets/img/mdi.png',
@@ -189,6 +192,7 @@ const dados = [
         ]
     },
     {
+        id: 3,
         sigla: 'Eng. Req.',
         nome: "Engenharia de Requisitos",
         imagem: 'https://raw.githubusercontent.com/octaviolage/pucflix/master/pucflix/src/assets/img/er.png',
