@@ -2,7 +2,6 @@ import React from 'react';
 import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
 import Slider, { SliderItem } from './components/Slider';
 import ModalIframe from '../Modal';
-import VideoCard from '../Carousel/components/VideoCard';
 
 function Carousel({
   ignoreFirstVideo,
@@ -11,7 +10,6 @@ function Carousel({
   const categoryTitle = category.sigla;
   const categoryColor = '#005983';
   const categoryExtraLink = category.nome;
-  const imagem = category.imagem
   const { aulas } = category;
   return (
     <VideoCardGroupContainer>
