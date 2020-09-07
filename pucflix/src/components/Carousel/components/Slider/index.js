@@ -5,6 +5,7 @@ import styled from 'styled-components';
 const Container = styled.ul`
   padding: 0;
   margin: 0;
+  align-content: center;
   .slick-prev,
   .slick-next {
     z-index: 50;
@@ -28,13 +29,7 @@ const Container = styled.ul`
 `;
 
 export const SliderItem = styled.li`
-  margin-right: 16px;
-  img {
-    margin: 16px;
-    width: 248px;
-    height: 147px;
-    object-fit: cover;
-  }
+  margin-top: 5px;
 `;
 
 const Slider = ({ children }) => (
@@ -44,10 +39,9 @@ const Slider = ({ children }) => (
       infinite: true,
       speed: 500,
       centerMode: false,
-      variableWidth: true,
-      adaptiveHeight: true,
-      slidesToShow: 2,
-      slidesToScroll: 2
+      slidesToShow: 5,
+      slidesToScroll: 5,
+      vertical: true,
     }}
     >
       {children}

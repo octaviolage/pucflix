@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from '../../components/Carousel';
 import PageDefault from '../../components/PageDefault';
+import BannerMain from '../../components/Banner'
 import dados from '../../db';
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
           return (
             
             <div key={categoria.id}>
+              <BannerMain />
               <Carousel
                 category={dados[0]}
               />

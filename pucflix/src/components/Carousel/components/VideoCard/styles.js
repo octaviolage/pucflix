@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
 export const VideoCardContainer = styled.a`
-  width: 248px;
-  height: 147px;
+  margin:auto;
+  height: 50px;
+  max-width: 80%;
   border-radius: 10px;
   border: 2px solid;
-  background-image: ${({ url }) => `url(${url})`};
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.8);
   background-position: center;
   text-decoration: none;
   overflow: hidden;
@@ -17,31 +18,14 @@ export const VideoCardContainer = styled.a`
   flex: 0 0 298px;
   align-items: flex-end;
   transition: width 0.3s;
+  font-weight: bold;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
   &:hover {
-    width: calc(248px + 3vw);
-  }
-  &:not(:first-child) {
-    margin-left: 20px;
-  }
-  & > span {
-    width: 100%;
-    height: 40%;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-weight: bold;
-    font-size: 16px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-  }
-
-  @media (max-width: 800px) {
-    width: 158px;
-    height: 97px;
-    &:hover {
-      width: 148px;
-  }
+    background-color: #005983;
+    color: white;
   }
 `;
 
