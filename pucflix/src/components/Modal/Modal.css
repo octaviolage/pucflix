@@ -1,0 +1,20 @@
+.ui.modal > .header {
+    background: var(--primary);
+    padding: 1.0rem 1.0rem;
+    color: var(--white);
+}
+
+.ui.modal > .content {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    line-height: 1.4;
+    padding: 0.2rem;
+    background: #212121;
+}
+
+.ui.modal > .close {
+    top: 0.9rem;
+    right: 1rem;
+    color: var(--white);
+}

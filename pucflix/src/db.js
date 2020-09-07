@@ -158,15 +158,15 @@ const dados = [
                 url: 'https://web.microsoftstream.com/video/875a1a21-8a45-46d4-b093-84d2605e27d1'
             },
             {
-                nome: "Dia 10/08 Construção de tabela verdade iniciado",
+                nome: "Dia 10/08 Construção de tabela verdade",
                 url: 'https://web.microsoftstream.com/video/3d1b35d3-2685-4d48-91e9-c8e0bd90194d'
             },
             {
-                nome: "Dia 14/08 Tabela Verdade, Tautologia e Implicação Lógica iniciado",
+                nome: "Dia 14/08 Tabela Verdade, Tautologia e Implicação Lógica",
                 url: 'https://web.microsoftstream.com/video/6873c184-5184-4fed-9320-26c47b42bf05'
             },
             {
-                nome: "Dia 17/08 Tautologia, implicação e equivalência lógica iniciado",
+                nome: "Dia 17/08 Tautologia, implicação e equivalência lógica",
                 url: 'https://web.microsoftstream.com/video/b6f902f7-f818-426f-b6fa-dfffd2b3c3fa'
             },
             {
@@ -178,15 +178,15 @@ const dados = [
                 url: 'https://web.microsoftstream.com/video/775c45cc-5e49-4db9-a804-1530cfa82c5f'
             },
             {
-                nome: "Dia 28/08 Álgebra das Proposições e Método Dedutivo iniciado",
+                nome: "Dia 28/08 Álgebra das Proposições e Método Dedutivo",
                 url: 'https://web.microsoftstream.com/video/2c360eb1-17f4-487a-8d15-1d0939f6adcd'
             },
             {
-                nome: "Dia 31/08 Argumentos e Regras de Inferência iniciado",
+                nome: "Dia 31/08 Argumentos e Regras de Inferência",
                 url: 'https://web.microsoftstream.com/video/925ccf14-8b18-4fa7-837b-13b150281bdf'
             },
             {
-                nome: "Dia 04/09 Validade de um argumento mediante inferência e equivalência iniciado",
+                nome: "Dia 04/09 Validade de um argumento mediante inferência e equivalência",
                 url: 'https://web.microsoftstream.com/video/7a11674b-28e9-4395-ab14-84c526d19141'
             }
         ]

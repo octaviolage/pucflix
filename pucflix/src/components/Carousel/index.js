@@ -1,7 +1,8 @@
 import React from 'react';
 import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
-import VideoCard from './components/VideoCard';
 import Slider, { SliderItem } from './components/Slider';
+import ModalIframe from '../Modal';
+import VideoCard from '../Carousel/components/VideoCard';
 
 function Carousel({
   ignoreFirstVideo,
@@ -15,31 +16,27 @@ function Carousel({
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
-      <>
-        <Title style={{ backgroundColor: categoryColor || 'red' }}>
-          {categoryTitle}
-        </Title>
-        {categoryExtraLink
+        <>
+          <Title style={{ backgroundColor: categoryColor || 'red' }}>
+            {categoryTitle}
+          </Title>
+          {categoryExtraLink
             && (
-            <ExtraLink href={categoryExtraLink.url} target="_blank">
-              {categoryExtraLink}
-            </ExtraLink>
+              <ExtraLink style={{ color: 'white' }} href={categoryExtraLink.url} target="_blank">
+                {categoryExtraLink}
+              </ExtraLink>
             )}
-      </>
+        </>
       )}
       <Slider>
         {aulas.map((video, index) => {
           if (ignoreFirstVideo && index === 0) {
             return null;
           }
-
           return (
             <SliderItem key={video.nome}>
-              <VideoCard
-                videoTitle={video.nome}
-                videoURL={video.url}
-                categoryColor={categoryColor}
-                image={imagem}
+              <ModalIframe
+                aula={video}
               />
             </SliderItem>
           );

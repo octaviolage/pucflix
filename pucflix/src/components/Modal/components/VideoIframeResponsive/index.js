@@ -1,13 +1,17 @@
 import React from 'react';
-
 import { VideoContainer, ResponsiveIframe } from './styles';
 
-function YouTubeIframeResponsive({ youtubeID }) {
+function getId(url) {
+  return url.slice(-36,)
+}
+
+function IframeResponsive({ url }) {
+  const videoId = getId(url);
   return (
     <VideoContainer>
       <ResponsiveIframe
         title="Titulo do Iframe"
-        src={`https://www.youtube.com/embed/${youtubeID}?autoplay=0&modestbranding=1&showinfo=0&`}
+        src={`https://web.microsoftstream.com/embed/video/${videoId}?autoplay=false&amp;showinfo=true`}
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
@@ -16,4 +20,4 @@ function YouTubeIframeResponsive({ youtubeID }) {
   );
 }
 
-export default YouTubeIframeResponsive;
+export default IframeResponsive;
