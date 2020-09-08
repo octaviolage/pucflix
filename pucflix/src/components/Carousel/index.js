@@ -7,9 +7,9 @@ function Carousel({
   ignoreFirstVideo,
   category,
 }) {
-  const categoryTitle = category.sigla;
+  const categoryTitle = category.gsx$sigla.$t;
   const categoryColor = '#005983';
-  const categoryExtraLink = category.nome;
+  const categoryExtraLink = category.gsx$nome.$t;
   const { aulas } = category;
   return (
     <VideoCardGroupContainer>
@@ -32,7 +32,7 @@ function Carousel({
             return null;
           }
           return (
-            <SliderItem key={video.nome}>
+            <SliderItem key={video.gsx$nome.$t}>
               <ModalIframe
                 aula={video}
               />

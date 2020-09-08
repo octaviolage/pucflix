@@ -12,15 +12,14 @@ function ModalIframe({aula}) {
       open={open}
       trigger={<div>
       <VideoCard
-        videoTitle={aula.nome}
-        image={aula.imagem}
+        videoTitle={aula.gsx$nome.$t}
       /></div>}
       onClose={() => setOpen(false)}
       onOpen={() => setOpen(true)}
     >
-      <Header icon='play' content={aula.nome} />
+      <Header icon='play' content={aula.gsx$nome.$t} />
       <Modal.Content>
-        <IframeReponsive url={aula.url} />
+        <IframeReponsive url={aula.gsx$url.$t} />
       </Modal.Content>
     </Modal>
   )
