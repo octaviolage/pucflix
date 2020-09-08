@@ -17,7 +17,7 @@ function Home() {
       });
   }, []);
   return (
-    <PageDefault paddingAll={0}>
+    <PageDefault>
       {dados.map((categoria, indice) => {
         if (indice === 0) {
           return (

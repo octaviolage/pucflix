@@ -10,17 +10,18 @@ export const Title = styled.h3`
   font-size:15px;
   font-weight:bold;
   font-style:normal;
-height:50px;
+  height:50px;
   line-height:50px;
-width:140px;
+  width:140px;
   text-decoration:none;
   text-align:center;
-}.classname:hover {
+  .classname:hover {
   background-color:#000000;
-}.classname:active {
+  }
+  .classname:active {
   position:relative;
   top:1px;
-
+  }
   @media (max-width: 800px) {
     font-size: 18px;
     padding: 10px;
@@ -61,5 +62,5 @@ export const VideoCardGroupContainer = styled.section`
   min-height: 197px;
   margin-left: 5%;
   margin-right: 3%;
-  margin-bottom: 16px;
+  margin-bottom: 60px;
 `;

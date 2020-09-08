@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import banco from '../../assets/img/banco.png'
 import git from '../../assets/img/github.png'
 import dolar from '../../assets/img/dolar.png'
@@ -26,14 +27,14 @@ function Footer() {
       <p>
         Saiba como contribuir
         {' '}
-        <a href="https://github.com/octaviolage/pucflix/">
+        <Link to="/contribuir">
           aqui. 
-        </a>
+        </Link>
       </p>
       <p>
-        <Image src={git} alt='Banco de Dados'/>
+        <Image src={git} alt='GitHub'/>
         {' '}
-        <Image src={dolar} alt='Banco de Dados'/>
+        <Image src={dolar} alt='Dinheirinho'/>
         {' '}
         <Image src={banco} alt='Banco de Dados'/>
       </p>
