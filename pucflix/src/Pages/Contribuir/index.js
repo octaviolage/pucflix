@@ -19,6 +19,10 @@ const Conteudo = styled.div`
 const Titulo = styled.h1`
     margin-left: 5%;
     padding-top: 2%;
+    @media (max-width: 800px) {
+        font-size: 22px;
+        margin-left: 2%;
+  }
 `;
 
 const Texto = styled.p`
@@ -28,6 +32,7 @@ const Texto = styled.p`
 
 const HyperLink = styled.a`
     text-decoration: none;
+    color: #00acef;
 `;
 
 
